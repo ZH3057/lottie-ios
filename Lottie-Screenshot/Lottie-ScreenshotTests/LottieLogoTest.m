@@ -17,10 +17,8 @@
 @implementation LottieLogoTest
 
 - (void)setUp {
-  
   self.animationName = @"LottieLogo1";
   [super setUp];
-  self.recordMode = YES;
 }
 
 - (void)testLottieLogo0 {

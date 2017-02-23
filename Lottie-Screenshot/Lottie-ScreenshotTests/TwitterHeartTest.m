@@ -1,5 +1,5 @@
 //
-//  LottieLogoTestB.m
+//  TwitterHeartTest.m
 //  Lottie-Screenshot
 //
 //  Created by Brandon Withrow on 2/22/17.
@@ -10,34 +10,28 @@
 #import <Lottie/Lottie.h>
 #import "LottieAnimationTestCase.h"
 
-@interface LottieLogoTestB : LottieAnimationTestCase
+@interface TwitterHeartTest : LottieAnimationTestCase
+
 @end
 
-@implementation LottieLogoTestB
+@implementation TwitterHeartTest
 
 - (void)setUp {
-  self.animationName = @"LottieLogo2";
+  self.animationName = @"TwitterHeart";
   [super setUp];
 }
 
-- (void)testLottieLogo0 {
+- (void)testTwitterHeartTest0 {
   [self testAnimationProgress:0];
 }
 
-- (void)testLottieLogo15 {
-  [self testAnimationProgress:0.15];
-}
-
-- (void)testLottieLogo25 {
-  [self testAnimationProgress:0.25];
-}
-
-- (void)testLottieLogo50 {
+- (void)testTwitterHeartTest50 {
   [self testAnimationProgress:0.5];
 }
 
-- (void)testLottieLogo100 {
+- (void)testTwitterHeartTest100 {
   [self testAnimationProgress:1];
 }
+
 
 @end

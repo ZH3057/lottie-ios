@@ -1,5 +1,5 @@
 //
-//  LottieLogoTestB.m
+//  AllSetTest.m
 //  Lottie-Screenshot
 //
 //  Created by Brandon Withrow on 2/22/17.
@@ -10,33 +10,26 @@
 #import <Lottie/Lottie.h>
 #import "LottieAnimationTestCase.h"
 
-@interface LottieLogoTestB : LottieAnimationTestCase
+@interface AllSetTest : LottieAnimationTestCase
+
 @end
 
-@implementation LottieLogoTestB
+@implementation AllSetTest
 
 - (void)setUp {
-  self.animationName = @"LottieLogo2";
+  self.animationName = @"AllSet";
   [super setUp];
 }
 
-- (void)testLottieLogo0 {
+- (void)testAllSet0 {
   [self testAnimationProgress:0];
 }
 
-- (void)testLottieLogo15 {
-  [self testAnimationProgress:0.15];
-}
-
-- (void)testLottieLogo25 {
-  [self testAnimationProgress:0.25];
-}
-
-- (void)testLottieLogo50 {
+- (void)testAllSet50 {
   [self testAnimationProgress:0.5];
 }
 
-- (void)testLottieLogo100 {
+- (void)testAllSet100 {
   [self testAnimationProgress:1];
 }
 

@@ -1,5 +1,5 @@
 //
-//  LottieLogoTestB.m
+//  CityTest.m
 //  Lottie-Screenshot
 //
 //  Created by Brandon Withrow on 2/22/17.
@@ -10,33 +10,35 @@
 #import <Lottie/Lottie.h>
 #import "LottieAnimationTestCase.h"
 
-@interface LottieLogoTestB : LottieAnimationTestCase
+
+@interface CityTest : LottieAnimationTestCase
+
 @end
 
-@implementation LottieLogoTestB
+@implementation CityTest
 
 - (void)setUp {
-  self.animationName = @"LottieLogo2";
+  self.animationName = @"City";
   [super setUp];
 }
 
-- (void)testLottieLogo0 {
+- (void)testCity0 {
   [self testAnimationProgress:0];
 }
 
-- (void)testLottieLogo15 {
+- (void)testCity15 {
   [self testAnimationProgress:0.15];
 }
 
-- (void)testLottieLogo25 {
+- (void)testCity25 {
   [self testAnimationProgress:0.25];
 }
 
-- (void)testLottieLogo50 {
+- (void)testCity50 {
   [self testAnimationProgress:0.5];
 }
 
-- (void)testLottieLogo100 {
+- (void)testCity100 {
   [self testAnimationProgress:1];
 }
 

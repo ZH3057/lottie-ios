@@ -19,6 +19,7 @@
 
 - (void)setUp {
   [super setUp];
+//  self.recordMode = YES;
   self.usesDrawViewHierarchyInRect = YES;
   self.animationView = [LOTAnimationView animationNamed:self.animationName];
   self.window = [[UIWindow alloc] initWithFrame:self.animationView.bounds];
